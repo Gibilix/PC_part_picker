@@ -1,11 +1,40 @@
 #!/usr/bin/env python3
 
+import os
 import pandas as pd
+from pandasql import sqldf
 
-Parts = pd.read_excel('PC Part Spreadsheet.xlsx')
+#Parts = xl.load_workbook('PC Part Spreadsheet.xlsx')
+#dataframe = Parts.active
+
+directory = '~/PC_Part_Picker/Parts/'
+Parts = []
+
+counter = 0
+for filename in os.listdir(directory):
+    Parts[counter] = pd.read_csv(filename)
+    counter += 1
+Parts[0].head(3)
+
+"""
+CPUs = pd.read_csv('PC Part Spreadsheet - CPUs.csv')
+GPUs = pd.read_csv('PC Part Spreadsheet - GPUs.csv')
+MoBos = pd.read_csv('PC Part Spreadsheet - MoBos.csv')
+SSDs = pd.read_csv('PC Part Spreadsheet - SDDs.csv')
+HDDs = pd.read_csv('PC Part Spreadsheet - HDDs.csv')
+RAM = pd.read_csv('PC Part Spreadsheet - RAM.csv')
+"""
+#print(sqldf("SELECT * FROM Parts;"))
+"""
+dataframe = Parts.active
+
+for row in range(0, dataframe.max_row):
+    
 Parts.head()
 
 print(Parts)
+"""
+
 
 
 """class Parts:

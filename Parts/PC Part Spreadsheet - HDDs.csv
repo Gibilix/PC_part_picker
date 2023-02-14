@@ -1,0 +1,11 @@
+HDD Name,Price,Capacity,Speed (RPM),Storage*Speed/Price
+"Seagate BarraCuda 2TB 7200RPM SATA III 6Gb/s 3.5"" Internal SMR Hard Drive",50,2000,7200,1152000
+"Seagate BarraCuda 4TB 5400RPM SATA III 6Gb/s 3.5"" Internal SMR Hard Drive",68,4000,5400,1270588
+"Seagate BarraCuda 6TB 5400RPM SATA III 6Gb/s 3.5"" OEM Internal SMR Hard Drive",100,6000,5400,1296000
+"Seagate BarraCuda 8TB 5400RPM SATA III 6Gb/s 3.5"" OEM Internal SMR Hard Drive",120,8000,5400,1440000
+"Seagate IronWolf 10TB 7200RPM SATA III 6Gb/s 3.5"" Internal NAS CMR Hard Drive",200,10000,7200,1440000
+"Seagate Ironwolf 12TB 7200RPM SATA III 6Gb/s 3.5"" Internal NAS CMR Hard Drive",230,120000,7200,15026087
+"Seagate IronWolf 14TB 7200RPM SATA III 6Gb/s 3.5"" Internal NAS CMR Hard Drive",260,140000,7200,15507692
+"Seagate IronWolf Pro 16TB 7200RPM SATA III 6Gb/s 3.5"" Internal NAS CMR Hard Drive",280,160000,7200,16457143
+"WD 18TB Red Pro 7200RPM SATA III 6Gb/s 3.5"" Internal NAS CMR HDD",330,180000,7200,15709091
+"Seagate IronWolf Pro 20TB 7200RPM SATA III 6Gb/s 3.5"" Internal NAS CMR Hard Drive",400,200000,7200,14400000
