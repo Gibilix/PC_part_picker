@@ -1,4 +1,14 @@
-class Parts:
+#!/usr/bin/env python3
+
+import pandas as pd
+
+Parts = pd.read_excel('PC Part Spreadsheet.xlsx')
+Parts.head()
+
+print(Parts)
+
+
+"""class Parts:
     pass
 class Cpu:
     def __init__(self, use, price, performance, tdp, igpu, p_cores, e_cores, threads, OC, DDR4, DDR5, cooler):
@@ -20,13 +30,16 @@ class Gpu:
 class storage:
     pass
 
-"""def __init__(self, cpu, gpu, storage, ram, case, psu):
+"""
+"""
+def __init__(self, cpu, gpu, storage, ram, case, psu):
         self.cpu = cpu
         self.gpu = gpu
         self.storage = storage
         self.ram = ram
         self.case = case
         self.psu = psu
-    def __str__():"""
+    def __str__():
         
 
+"""
