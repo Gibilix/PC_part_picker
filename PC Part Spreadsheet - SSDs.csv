@@ -1,0 +1,21 @@
+SSD Name,Price,Capacity,Read Speed,Storage*Speed/Price
+Inland QN322 500GB SSD NVMe PCIe Gen 3.0 x4 M.2 2280 3D NAND QLC Internal Solid State Drive,30,500,2100,11667
+"Solidigm P41 Plus Series 512GB SSD PCIe NVMe 4.0 x4 144L 3D QLC NAND Flash M.2 2280 Internal Solid State Drive",40,500,3500,14583
+"Inland QN322 1TB SSD NVMe PCIe Gen 3.0x4 M.2 2280 3D NAND QLC Internal Solid State Drive",50,1000,2200,14667
+"WD Black SN850 500GB 3D NAND PCIe Gen 4 x4 NVMe M.2 Internal SSD",66,500,7000,17677
+"Solidigm P41 Plus Series 1TB SSD PCIe NVMe 4.0 x4 144L 3D QLC NAND Flash M.2 2280 Internal Solid State Drive",67,1000,4125,20522
+"Crucial P3 Plus 1TB 3D NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD",67,1000,5000,24876
+"Inland Performance Plus 1TB 3D TLC NAND PCIe Gen 4 x4 NVMe M.2 Internal SSD",87,1000,7000,26820
+Inland QN322 2TB SSD NVMe PCIe Gen 3.0 x4 M.2 2280 3D NAND QLC Internal Solid State Drive,90,2000,2300,17037
+WD Black SN850X 1TB 112L 3D TLC NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD,100,1000,7300,24333
+Crucial P3 Plus 2TB 3D NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD,125,2000,5000,26667
+WD Black SN850X 1TB 112L 3D TLC NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD with Heatsink,125,1000,7300,19467
+Inland Performance Plus 2TB 3D TLC NAND PCIe Gen 4 x4 NVMe M.2 Internal SSD,155,2000,7000,30108
+Seagate Game Drive 1TB 3D TLC NAND PCIe Gen 4 x4 NVMe M.2 Internal SSD,160,1000,7300,15208
+"Samsung 990 PRO 1TB Samsung V NAND 3-bit MLC PCIe Gen 4 x4 NVMe M.2 Internal SSD",170,1000,7450,14608
+WD Black SN850X 2TB 112L 3D TLC NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD,170,2000,7300,28627
+Samsung 990 PRO 2TB Samsung V NAND 3-bit MLC PCIe Gen 4 x4 NVMe M.2 Internal SSD,290,2000,7450,17126
+Crucial P3 Plus 4TB 3D NAND Flash PCIe Gen 4 x4 NVMe M.2 Internal SSD,300,4000,4800,21333
+Inland Performance Plus 4TB 3D TLC NAND PCIe Gen 4 x4 NVMe M.2 Internal SSD,380,4000,7200,25263
+"Samsung 870 QVO 8TB SSD 4-bit QLC V-NAND SATA III 6Gb/s 2.5"" Internal Solid State Drive",700,8000,560,2133
+Inland Performance Plus 8TB 3D TLC NAND PCIe Gen 4 x4 NVMe M.2 Internal SSD,1000,8000,7000,18667
