@@ -52,9 +52,10 @@ SELECT *
 FROM CPUs;
 """
 
-connection = create_db_connection("localhost", "henry", "henryrogers123$", db)
+connection = create_db_connection("local ip", "user", "psw", "db")
 execute_query(connection, create_CPU_table)
 execute_query(connection, insert_CPU)
+
 results = read_query(connection, q1)
 
 from_db = []
@@ -64,7 +65,7 @@ for result in results:
   from_db.append(result)
 
 
-columns = ["course_id", "course_name", "language", "client_name", "address"]
+columns = ["CPU Name", "Price", "Performance", "TDP", "iGPU", "P-Cores", "E-Cores", "Threads", "OC"]
 df = pd.DataFrame(from_db, columns=columns)
 
-display(df)
+display(df) #final result should display neat table on webpage
