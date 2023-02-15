@@ -50,3 +50,20 @@ def read_query(connection, query):
 connection = create_db_connection("local ip", "user", "psw", "db")
 execute_query(connection, create_CPU_table)
 execute_query(connection, insert_CPU)
+<<<<<<< HEAD
+=======
+
+results = read_query(connection, q1)
+
+from_db = []
+
+for result in results:
+  result = list(result)
+  from_db.append(result)
+
+
+columns = ["CPU Name", "Price", "Performance", "TDP", "iGPU", "P-Cores", "E-Cores", "Threads", "OC"]
+df = pd.DataFrame(from_db, columns=columns)
+
+display(df) #final result should display CPU table neatly on webpage
+>>>>>>> origin
