@@ -68,4 +68,4 @@ for result in results:
 columns = ["CPU Name", "Price", "Performance", "TDP", "iGPU", "P-Cores", "E-Cores", "Threads", "OC"]
 df = pd.DataFrame(from_db, columns=columns)
 
-display(df) #final result should display neat table on webpage
+display(df) #final result should display CPU table neatly on webpage
