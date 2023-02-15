@@ -47,25 +47,6 @@ def read_query(connection, query):
     except Error as err:
         print(f"Error: '{err}'")
 
-q1 = """
-SELECT *
-FROM CPUs;
-"""
-
 connection = create_db_connection("local ip", "user", "psw", "db")
 execute_query(connection, create_CPU_table)
 execute_query(connection, insert_CPU)
-
-results = read_query(connection, q1)
-
-from_db = []
-
-for result in results:
-  result = list(result)
-  from_db.append(result)
-
-
-columns = ["CPU Name", "Price", "Performance", "TDP", "iGPU", "P-Cores", "E-Cores", "Threads", "OC"]
-df = pd.DataFrame(from_db, columns=columns)
-
-display(df) #final result should display neat table on webpage
