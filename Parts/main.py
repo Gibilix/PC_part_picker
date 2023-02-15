@@ -7,17 +7,27 @@ from pandasql import sqldf
 #Parts = xl.load_workbook('PC Part Spreadsheet.xlsx')
 #dataframe = Parts.active
 
-directory = '~/PC_Part_Picker/Parts/'
-Parts = []
+directory = '.'
+Parts = ['', '', '', '', '', '', '', '', '', '', '']
 
 counter = 0
 for filename in os.listdir(directory):
-    Parts[counter] = pd.read_csv(filename)
-    counter += 1
-Parts[0].head(3)
+    if filename != 'main.py':
+        Parts[counter] = pd.read_csv(filename)
+        counter += 1
+#print(Parts[0].head(3))
+def pysqldf(q):
+    return sqldf(q, globals())
+#test = pd.read_csv('PC Part Spreadsheet - CPUs.csv')
+#print(pysqldf("SELECT * FROM test;"))
+print(pysqldf("SELECT * FROM Parts[0];"))
+#dfcustomers = pd.read_csv('PC Part Spreadsheet - CPUs.csv')
+#print(dfcustomers.head(3))
 
 """
-CPUs = pd.read_csv('PC Part Spreadsheet - CPUs.csv')
+CPUs = pd.read_csv('PC Part Spreadsheet - CPUs
+print(pysqldf("select * from Parts[0];"))
+.csv')
 GPUs = pd.read_csv('PC Part Spreadsheet - GPUs.csv')
 MoBos = pd.read_csv('PC Part Spreadsheet - MoBos.csv')
 SSDs = pd.read_csv('PC Part Spreadsheet - SDDs.csv')
